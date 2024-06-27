@@ -8,10 +8,10 @@ urlpatterns = [
     path("Datalore/", include("webhook_handler.urls")),
 ]
 
-import json
-
 # --------------------------------------------------------------#
 # Создаем обработчик вебхуков
+import json
+
 from django.http import HttpResponse
 from django.utils.decorators import method_decorator
 from django.views import View
