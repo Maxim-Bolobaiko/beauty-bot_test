@@ -13,12 +13,3 @@ def count_pairs(pairs):
         [id, version, count] for (id, version), count in pairs_counter.items()
     ]
     return result
-
-
-pairs = [
-    ["665587", 2],
-    ["669532", 1],
-    ["669537", 2],
-    ["669532", 1],
-    ["665587", 1],
-]
