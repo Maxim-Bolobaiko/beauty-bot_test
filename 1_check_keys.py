@@ -22,21 +22,3 @@ def check_keys(text, list_keys):
         return "\n".join(errors)
 
     return text
-
-
-test_text = """{name}, ваша запись изменена:
-⌚️ {day_month} в {start_time}
-👩 {master}
-Услуги:
-{services}
-управление записью {record_link}"""
-
-list_keys = [
-    "name",
-    "day_month",
-    "day_of_week",
-    "start_time",
-    "end_time",
-    "master",
-    "services",
-]
